@@ -1,0 +1,29 @@
+{
+  "name": "simple-weather-app-nodejs",
+  "version": "1.0.0",
+  "description": "JTC weather app with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js -c \"Thanh pho Ho Chi Minh\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanguyenjaneto/simple-weather-app-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "weather-app",
+    "jtc",
+    "laptrinhvien.io"
+  ],
+  "author": "hanguyenjaneto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanguyenjaneto/simple-weather-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/hanguyenjaneto/simple-weather-app-nodejs#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "yargs": "^11.0.0"
+  }
+}
